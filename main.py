@@ -81,6 +81,8 @@ def adam_step_decay(epoch):
         lr = 1e-4
     else:
         lr = 1e-4 *0.5
+    
+    return lr
         
 if TRAIN:      
     data = load_train_data(train_data)
